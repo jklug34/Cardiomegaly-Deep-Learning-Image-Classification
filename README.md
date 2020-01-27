@@ -3,7 +3,7 @@ Trained a deep learning model with attention mechanism to classify NIH Chest X-r
 
 
 Background: 
-Cardiomegaly or enlarged heart is not a disease, but a sign of another underling condition.  An enlarged heart may be due to short-term stress on the body, pregnancy, weakening of the heart muscle, coronary artery disease, heart valve problems or abnormal heart rhythms. People with an enlarged heart may have no signs or symptoms or others might have shortness of breath, abnormal heart rhythm, or swelling (edema).  There are 200,000+ cases diagonsed every year.  
+Cardiomegaly or enlarged heart is not a disease, but a sign of another underling condition.  An enlarged heart may be due to short-term stress on the body, pregnancy, weakening of the heart muscle, coronary artery disease, heart valve problems or abnormal heart rhythms. People with an enlarged heart may have no signs or symptoms or others might have shortness of breath, abnormal heart rhythm, or swelling (edema).  There are 200,000+ cases diagnosed every year.  
 
 Some underlying causes may include:
 High blood pressure
@@ -14,7 +14,7 @@ Pericardial effusion (fluid around the heart)
 Coronary heart disease
 Anemia
 Thyroid disorders
-Hemochromatosis (excesive iron in the body)
+Hemochromatosis (excessive iron in the body)
 Amyloidosis
 
 Prevention: 
@@ -25,7 +25,7 @@ Controlling risk factors for coronary artery disease (tobacco use, high blood pr
 An enlarged heart can be seen on a chest x-ray.  Utilized over 112,000 chest x-ray images from more than 30,000 unique patients from a deidentified NIH database.  
 https://www.kaggle.com/nih-chest-xrays/data
 
-A deep learning model that classifies cardiomegaly was trained. It used a VGG16 model trained on ImageNet data and retrained it on grayscale chest x-ray images.  Additionally, an attention model was used to mask unimportant parts of the image facillitating learning for an enlarged heart.  
+A deep learning model that classifies cardiomegaly was trained. It used a VGG16 model trained on ImageNet data and retrained it on grayscale chest x-ray images.  Additionally, an attention model was used to mask unimportant parts of the image facilitating learning for an enlarged heart.  
 
 
 ### Example data frame
@@ -34,7 +34,7 @@ Example of raw data.  There are 14 different disease classes in the "finding lab
 
 
 ### Raw data distributions
-Only 2.48% (2776/112120) of the images had a classifacation of cardiomegaly.   
+Only 2.48% (2776/112120) of the images had a classification of cardiomegaly.   
 ![distributions_raw](https://user-images.githubusercontent.com/48166327/73209997-37303b00-40fe-11ea-8e0a-8f8f84934c2a.png)
 
 
