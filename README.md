@@ -39,7 +39,7 @@ Only 2.48% (2776/112120) of the images had a classification of cardiomegaly.
 
 
 ### Balance data distribution
-Due to the imbalance between cardiomegaly and non-cardiomegaly images (unbalanced datasets are harder to train).  The dataset was rebalanced non-cardiomegaly: cardiomegaly 3:1 (so 25% of the images were positive for cardiomegaly)
+Due to the imbalance between cardiomegaly and non-cardiomegaly images (unbalanced datasets are harder to train).  The dataset was rebalanced non-cardiomegaly: cardiomegaly 3:1 (so 25% of the images were positive for cardiomegaly)train
 ![distributions_rebalance](https://user-images.githubusercontent.com/48166327/73210068-5c24ae00-40fe-11ea-9f80-2764f7caae9b.png)
 
 
@@ -57,7 +57,7 @@ Due to the imbalance between cardiomegaly and non-cardiomegaly images (unbalance
 
 ### Model Training
 ![Training_epoch_10](https://user-images.githubusercontent.com/48166327/73217025-fc350400-410b-11ea-945b-1f27d951b4cb.png)
-![training_epoch_greater_10](https://user-images.githubusercontent.com/48166327/73217032-00f9b800-410c-11ea-95bd-ed12c6549f9d.png)
+![training_epoch_greater_10](https://user-images.githubusercontent.com/48166327/73217846-934e8b80-410d-11ea-823b-a9f15008eb5b.png)
 
 
 ### Example image attention model heat map
